@@ -7,5 +7,6 @@ public class CoffeeShop {
         new Thread(new CoffeeMaker("Latte", machine)).start();
         new Thread(new CoffeeMaker("Mocha", machine)).start();
 
+        System.out.println("End main");
     }
 }
